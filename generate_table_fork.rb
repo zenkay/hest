@@ -29,4 +29,4 @@ table_config["categories"].each do |c|
 end
 
 # write result
-File.open("table-fork.html", 'w') { |file| file.write(ERB.new(File.read("templates/table-fork.html")).result(binding)) } 
+File.open("index.html", 'w') { |file| file.write(ERB.new(File.read("templates/table-fork.html")).result(binding)) } 

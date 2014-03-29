@@ -8,7 +8,7 @@
 		"Key-value Data Model",
 		"Graph Data Model",
 		"NewSQL Databases",
-		"SQL-on-Hadoop",
+		"SQL-like processing",
 		"Data Ingestion",
 		"Service Programming",
 		"Scheduling",
@@ -19,6 +19,7 @@
 		"Applications",
 		"Search engine and framework",
 		"MySQL forks and evolutions",
-		"Memcached forks and evolutions"
+		"Memcached forks and evolutions",
+		"Embemmed Databases"
 	]
 }
