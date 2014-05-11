@@ -1,0 +1,5 @@
+require 'capistrano/s3'
+
+set :bucket, "www.cool-website-bucket.com"
+set :access_key_id, "CHANGETHIS"
+set :secret_access_key, "CHANGETHIS"
