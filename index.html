@@ -18,6 +18,19 @@
       ga('send', 'pageview');
 
     </script>
+
+    <meta property="og:title" content="The Big-Data Ecosystem Table"/>
+    <meta property="og:image" content="http://bigdata.andreamostosi.name/bigdata.jpg"/>
+    <meta property="og:site_name" content="Useful Stuff - Andrea Mostosi Blog"/>
+    <meta property="og:description" content="This page is built merging the Hadoop Ecosystem Table (by Javi Roman and other contributors) and projects list collected on my blog. Result is an incomplete-but-useful list of big-data related projects. If you like you can contribute to the original project or to my fork."/>
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:url" content="http://bigdata.andreamostosi.name">
+    <meta name="twitter:title" content="The Big-Data Ecosystem Table">
+    <meta name="twitter:creator" content="@zenkay">
+    <meta name="twitter:description" content="This page is built merging the Hadoop Ecosystem Table (by Javi Roman and other contributors) and projects list collected on my blog. Result is an incomplete-but-useful list of big-data related projects. If you like you can contribute to the original project or to my fork.">
+    <meta name="twitter:image" content="http://bigdata.andreamostosi.name/bigdata.jpg">
+
   </head>
   <body>
 
@@ -349,6 +362,17 @@
           <a href="https://code.google.com/p/jaql/">1. JAQL in Google Code</a><br>
         
           <a href="http://www-01.ibm.com/software/data/infosphere/hadoop/jaql/">2. What is Jaql? by IBM</a><br>
+        
+      </tr>
+    
+      <tr>
+        <td width="20%">Kite</td>
+        <td>
+<p>is a set of libraries, tools, examples, and documentation focused on making it easier to build systems on top of the Hadoop ecosystem.</p>
+</td>
+        <td width="20%">
+        
+          <a href="http://kitesdk.org/docs/current/">1. Website</a><br>
         
       </tr>
     
@@ -762,6 +786,17 @@
       </tr>
     
       <tr>
+        <td width="20%">Facebook Apollo</td>
+        <td>
+<p>Facebook’s Paxos-like NoSQL database</p>
+</td>
+        <td width="20%">
+        
+          <a href="http://www.infoq.com/news/2014/06/facebook-apollo">1. infoQ post</a><br>
+        
+      </tr>
+    
+      <tr>
         <td width="20%">jumboDB</td>
         <td>
 <p>document oriented datastore over Hadoop</p>
@@ -833,6 +868,17 @@
       </tr>
     
       <tr>
+        <td width="20%">Edis</td>
+        <td>
+<p>Edis is a protocol-compatible Server replacement for Redis, written in Erlang. Edis’s goal is to be a drop-in replacement for Redis when persistence is more important than holding the dataset in-memory. Edis (currently) uses Google’s leveldb as a backend. Future plans call for a multi-master clustering model. Near term goals are to act as a read-slave for existing Redis servers.</p>
+</td>
+        <td width="20%">
+        
+          <a href="http://inaka.github.io/edis/">1. Website</a><br>
+        
+      </tr>
+    
+      <tr>
         <td width="20%">ElephantDB</td>
         <td>
 <p>Distributed database specialized in exporting data from Hadoop</p>
@@ -895,17 +941,6 @@
         <td width="20%">
         
           <a href="http://redis.io">1. Redis.io</a><br>
-        
-      </tr>
-    
-      <tr>
-        <td width="20%">RocksDB</td>
-        <td>
-<p>RocksDB is an embeddable persistent key-value store for fast storage. RocksDB can also be the foundation for a client-server database but our current focus is on embedded workloads.</p>
-</td>
-        <td width="20%">
-        
-          <a href="http://rocksdb.org/">1. RocksDB site</a><br>
         
       </tr>
     
@@ -1752,6 +1787,17 @@
       
       
       <tr>
+        <td width="20%">Apache Aurora</td>
+        <td>
+<p>is a service scheduler that runs on top of Apache Mesos</p>
+</td>
+        <td width="20%">
+        
+          <a href="http://aurora.incubator.apache.org/">1. Apache Incubator</a><br>
+        
+      </tr>
+    
+      <tr>
         <td width="20%">Apache Falcon</td>
         <td>
 <p>Apache™ Falcon is a data management framework for simplifying data lifecycle management and processing pipelines on Apache Hadoop®. It enables users to configure, manage and orchestrate data motion, pipeline processing, disaster recovery, and data retention workflows. Instead of hard-coding complex data lifecycle capabilities, Hadoop applications can now rely on the well-tested Apache Falcon framework for these functions. Falcon’s simplification of data management is quite useful to anyone building apps on Hadoop. Data Management on Hadoop encompasses data motion, process orchestration, lifecycle management, data discovery, etc. among other concerns that are beyond ETL. Falcon is a new data processing and management platform for Hadoop that solves this problem and creates additional opportunities by building on existing components within the Hadoop ecosystem (ex. Apache Oozie, Apache Hadoop DistCp etc.) without reinventing the wheel.</p>
@@ -1792,6 +1838,19 @@
         <td width="20%">
         
           <a href="http://azkaban.github.io/azkaban2/">1. LinkedIn Azkaban</a><br>
+        
+      </tr>
+    
+      <tr>
+        <td width="20%">Sparrow</td>
+        <td>
+<p>Sparrow is a high throughput, low latency, and fault-tolerant distributed cluster scheduler. Sparrow is designed for applications that require resource allocations frequently for very short jobs, such as analytics frameworks. Sparrow schedules from a distributed set of schedulers that maintain no shared state. Instead, to schedule a job, a scheduler obtains intantaneous load information by sending probes to a subset of worker machines. The scheduler places the job’s tasks on the least loaded of the probed workers. This technique allows Sparrow to schedule in milliseconds, two orders of magnitude faster than existing approaches. Sparrow also handles failures: if a scheduler fails, a client simply directs scheduling requests to an alternate scheduler</p>
+</td>
+        <td width="20%">
+        
+          <a href="https://github.com/radlab/sparrow">1. Github</a><br>
+        
+          <a href="http://dl.acm.org/citation.cfm?doid=2517349.2522716">2. Paper</a><br>
         
       </tr>
     
@@ -1843,6 +1902,17 @@
         <td width="20%">
         
           <a href="http://www.etcml.com/">1. </a><br>
+        
+      </tr>
+    
+      <tr>
+        <td width="20%">Etsy Conjecture</td>
+        <td>
+<p>Conjecture is a framework for building machine learning models in Hadoop using the Scalding DSL. The goal of this project is to enable the development of statistical models as viable components in a wide range of product settings. Applications include classification and categorization, recommender systems, ranking, filtering, and regression (predicting real-valued numbers). Conjecture has been designed with a primary emphasis on flexibility and can handle a wide variety of inputs. Integration with Hadoop and scalding enable seamless handling of extremely large data volumes, and integration with established ETL processes. Predicted labels can either be consumed directly by the web stack using the dataset loader, or models can be deployed and consumed by live web code. Currently, binary classification (assigning one of two possible labels to input data points) is the most mature component of the Conjecture package.</p>
+</td>
+        <td width="20%">
+        
+          <a href="https://github.com/etsy/Conjecture">1. Github</a><br>
         
       </tr>
     
@@ -2621,6 +2691,17 @@
       </tr>
     
       <tr>
+        <td width="20%">HanoiDB</td>
+        <td>
+<p>HanoiDB implements an indexed, key/value storage engine. The primary index is a log-structured merge tree (LSM-BTree) implemented using ‘doubling sizes’ persistent ordered sets of key/value pairs, similar is some regards to LevelDB. HanoiDB includes a visualizer which when used to watch a living database resembles the ‘Towers of Hanoi’ puzzle game, which inspired the name of this database.</p>
+</td>
+        <td width="20%">
+        
+          <a href="https://github.com/krestenkrab/hanoidb">1. Github</a><br>
+        
+      </tr>
+    
+      <tr>
         <td width="20%">LevelDB</td>
         <td>
 <p>a fast key-value storage library written at Google that provides an ordered mapping from string keys to string values.</p>
@@ -2639,6 +2720,17 @@
         <td width="20%">
         
           <a href="http://symas.com/mdb/">1. Symas website</a><br>
+        
+      </tr>
+    
+      <tr>
+        <td width="20%">RocksDB</td>
+        <td>
+<p>RocksDB is an embeddable persistent key-value store for fast storage. RocksDB can also be the foundation for a client-server database but our current focus is on embedded workloads.</p>
+</td>
+        <td width="20%">
+        
+          <a href="http://rocksdb.org/">1. RocksDB site</a><br>
         
       </tr>
     
