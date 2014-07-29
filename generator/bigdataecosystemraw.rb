@@ -6,7 +6,7 @@ require "pp"
 projects = []
 
 # iterate on data files (alphabetically ordered)
-Dir.glob("#{File.dirname(__FILE__)}/../data/*.json").sort.each do |file|
+Dir.glob("#{File.dirname(__FILE__)}/../projects-data/*.json").sort.each do |file|
 
   # read content
   data = JSON.parse(File.read(file))
