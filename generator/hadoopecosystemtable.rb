@@ -4,12 +4,14 @@ require "maruku"
 require "pp"
 
 # load ordered category list
-table_config = JSON.parse(File.read("config/wordpress.json"))
+table_config = JSON.parse(File.read("#{File.dirname(__FILE__)}/../config/hadoopecosystemtable.json"))
 
 data_grouped_by_category = {}
 
+puts "Config succesfully loaded."
+
 # iterate on data files (alphabetically ordered)
-Dir.glob('data/*.json').sort.each do |file|
+Dir.glob("#{File.dirname(__FILE__)}/../data/*.json").sort.each do |file|
 
 	# read content
   data = JSON.parse(File.read(file))
@@ -22,11 +24,17 @@ Dir.glob('data/*.json').sort.each do |file|
   data_grouped_by_category[data["category"]] << data
 end
 
+puts "Data succesfully loaded."
+
 # create table content
 categories = []
 table_config["categories"].each do |c|
 	categories << {"name" => c, "items" => data_grouped_by_category[c]}
 end
 
+puts "Data succesfully grouped."
+
 # write result
-File.open("index.html", 'w') { |file| file.write(ERB.new(File.read("templates/table-fork.html")).result(binding)) } 
+File.open("#{File.dirname(__FILE__)}/../public/hadoopecosystemtable.html", 'w') { |file| file.write(ERB.new(File.read("#{File.dirname(__FILE__)}/templates/hadoopecosystemtable.html")).result(binding)) } 
+
+puts "Destination file written."
