@@ -8,6 +8,7 @@
 		"Key-value Data Model",
 		"Graph Data Model",
 		"NewSQL Databases",
+		"Time-Series Databases",
 		"SQL-like processing",
 		"Data Ingestion",
 		"Service Programming",
@@ -20,6 +21,8 @@
 		"Search engine and framework",
 		"MySQL forks and evolutions",
 		"Memcached forks and evolutions",
-		"Embemmed Databases"
+		"Embedded Databases",
+		"Business Intelligence",
+		"Data Visualization"
 	]
 }

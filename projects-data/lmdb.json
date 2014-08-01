@@ -2,7 +2,7 @@
   "name": "LMDB",
   "description": "ultra-fast, ultra-compact key-value embedded data store developed by Symas",
   "abstract": "ultra-fast, ultra-compact key-value embedded data store developed by Symas",
-  "category": "Embemmed Databases",
+  "category": "Embedded Databases",
   "tags": [
 
   ],

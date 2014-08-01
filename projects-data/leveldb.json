@@ -2,7 +2,7 @@
   "name": "LevelDB",
   "description": "a fast key-value storage library written at Google that provides an ordered mapping from string keys to string values.",
   "abstract": "a fast key-value storage library written at Google that provides an ordered mapping from string keys to string values.",
-  "category": "Embemmed Databases",
+  "category": "Embedded Databases",
   "tags": [
 
   ],

@@ -2,7 +2,7 @@
   "name": "RocksDB",
   "description": "RocksDB is an embeddable persistent key-value store for fast storage. RocksDB can also be the foundation for a client-server database but our current focus is on embedded workloads.",
   "abstract": "embeddable persistent key-value store for fast storage based on LevelDB",
-  "category": "Embemmed Databases",
+  "category": "Embedded Databases",
   "tags": [
 
   ],

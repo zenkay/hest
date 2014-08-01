@@ -1,13 +1,15 @@
 {
 	"categories": [
-		"Distributed Filesystem",
+		"Framework",
 		"Distributed Programming",
+		"Distributed Filesystem",
 		"Column Data Model",
 		"Document Data Model",
 		"Key-value Data Model",
 		"Graph Data Model",
 		"NewSQL Databases",
-		"SQL-on-Hadoop",
+		"Time-Series Databases",
+		"SQL-like processing",
 		"Data Ingestion",
 		"Service Programming",
 		"Scheduling",
@@ -15,9 +17,12 @@
 		"Bechmarking",
 		"Security",
 		"System Deployment",
-		"Search engine and framework",
 		"Applications",
-		"Development Frameworks",
-		"Uncategorized"
+		"Search engine and framework",
+		"MySQL forks and evolutions",
+		"Memcached forks and evolutions",
+		"Embedded Databases",
+		"Business Intelligence",
+		"Data Visualization"
 	]
 }

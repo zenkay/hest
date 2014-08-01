@@ -1,0 +1,15 @@
+{
+  "name": "Apache Sentr",
+  "description": "security module for data stored in Hadoop.",
+  "abstract": "security module for data stored in Hadoop.",
+  "category": "Security",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Website",
+      "url": "http://incubator.apache.org/projects/sentry.html"
+    }
+  ]
+}

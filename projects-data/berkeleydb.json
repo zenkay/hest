@@ -2,7 +2,7 @@
   "name": "BerkeleyDB",
   "description": "a software library that provides a high-performance embedded database for key/value data",
   "abstract": "a software library that provides a high-performance embedded database for key/value data",
-  "category": "Embemmed Databases",
+  "category": "Embedded Databases",
   "tags": [
 
   ],
