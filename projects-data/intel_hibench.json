@@ -2,11 +2,14 @@
   "name": "Intel HiBench",
   "description": "HiBench is a Hadoop benchmark suite.",
   "abstract": "a Hadoop benchmark suite",
-  "category": "Bechmarking",
+  "category": "Benchmarking",
   "tags": [
 
   ],
   "links": [
-
+    {
+      "text": "Website",
+      "url": "https://github.com/intel-hadoop/HiBench"
+    }
   ]
 }

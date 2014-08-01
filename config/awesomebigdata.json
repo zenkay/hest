@@ -11,10 +11,11 @@
 		"Time-Series Databases",
 		"SQL-like processing",
 		"Data Ingestion",
+		"Integrated Development Environments",
 		"Service Programming",
 		"Scheduling",
 		"Machine Learning",
-		"Bechmarking",
+		"Benchmarking",
 		"Security",
 		"System Deployment",
 		"Applications",
@@ -23,6 +24,7 @@
 		"Memcached forks and evolutions",
 		"Embedded Databases",
 		"Business Intelligence",
-		"Data Visualization"
+		"Data Visualization",
+		"Internet of things and sensor data"
 	]
 }
